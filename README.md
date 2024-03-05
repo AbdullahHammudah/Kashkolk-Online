@@ -1,7 +1,7 @@
-# Learning Log
-Learning Log is an online journal system that lets
+# Kashkolk Online
+Kashkolk Online is an online journal system that lets
 you keep track of information you’ve learned about
-particular topics.[Learning Log](https://learning-log-amah.herokuapp.com)
+particular topics.
 
 ## App Specs:
 * Login & register system.
