@@ -1,0 +1,14 @@
+{% extends 'kashkolk_online/base.html' %}
+
+{% block content%}
+
+<p><a href= "{% url 'kashkolk_online:topic' topic.id %} "> {{topic}}</a></p>
+
+<p>Add new entry:</p>
+<form action= "{% url 'kashkolk_online:new_entry' topic.id %}" method= 'post'>
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button name="submit">add entry</button>
+</form>
+
+{%endblock content%}
